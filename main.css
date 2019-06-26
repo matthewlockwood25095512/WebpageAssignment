@@ -2,53 +2,39 @@ h1, h2, h3{
     color:skyblue;
 }
 * {
-    background-color: rgb(223, 138, 11);
-}
-.nicecolor {
-    color: skyblue;
+    background-image: url("backgroundstring.jpg");
 }
 * {
-    text-align: center
+    text-align: center;
 }
 .large {
     font-size: 20px;
-}
-#introFont {
-    font-style: italic
 }
 .introFont2 {
     font-style: italic
 }
 
-* {
-    box-sizing: border-box;
-    padding: 25px 1px 25px 1px;
-    border: black;
-}
-
 div {
     border: 50px;
-    background-color: grey;
+    background-color: #fff;
 }
 
 /* this puts everything into the middle of the page*/
-#outer {
+.outer {
 	width:960px;
 	margin:0 auto;
-	background-color:#fff
+    background-color: #fff;
 }
 
 /* Displays the navigation bar inline*/
-#topnav ul li {
-    display: inline
-}
-/* Puts a border around the navigation bar */
-#topnav ul {
+.topnav ul li {
+    display: inline-block;
     border-top: 1px #000 solid;
     border-bottom: 1px #000 solid;
     margin: 20px 0; padding: 10px;
-}
-/*Stops nav bar from floating*/
-#topnav {
     clear: both;
 }
+.center {
+    text-align: center;
+}
+
