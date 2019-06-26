@@ -1,40 +1,76 @@
 h1, h2, h3{
     color:skyblue;
 }
-* {
+.background {
     background-image: url("backgroundstring.jpg");
-}
-* {
-    text-align: center;
 }
 .large {
     font-size: 20px;
+    font: large;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .introFont2 {
     font-style: italic
 }
-
-div {
-    border: 50px;
-    background-color: #fff;
-}
-
-/* this puts everything into the middle of the page*/
-.outer {
-	width:960px;
-	margin:0 auto;
-    background-color: #fff;
-}
-
-/* Displays the navigation bar inline*/
-.topnav ul li {
-    display: inline-block;
-    border-top: 1px #000 solid;
-    border-bottom: 1px #000 solid;
-    margin: 20px 0; padding: 10px;
-    clear: both;
-}
-.center {
+* {
     text-align: center;
 }
 
+
+.boarder {
+	width:960px;
+	margin:0 auto;
+	background-color: gray;
+}
+
+.textback {
+    background-color: rgba(253, 252, 249,0.9);
+}
+
+.topnav ul li {
+	display:inline;
+}
+.container {
+    display: flex;
+    min-height: 5vh;
+    flex-direction: row; 
+    text-align: 
+}
+.box {
+    color:white;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding:15px;
+    width: 400px; 
+    border: 10px, red;
+}
+
+  /* Colours for each box */
+  .box1 { background:#8ff806;}
+  .box2 { background:#10a702;}
+  .box3 { background:#8ff806;}
+  .box4 { background:#10a702;}
+  .box5 { background:#8ff806;}
+  .box6 { background:#10a702;}
+  .box7 { background:#8ff806;}
+  .box8 { background:#10a702;}
+  .box9 { background:#8ff806;}
+  .box10 { background:#10a702;}
+
+  /*puts the icons in the top right*/
+#icons {
+	margin-top: 30px;
+    float:right;
+    }
+
+#icons ul li {
+        display:inline;
+    }
+
+.rightside {
+        width:200px;
+        float: right;
+}
+.content {
+	width:650px; float:left;

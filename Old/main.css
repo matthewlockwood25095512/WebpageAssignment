@@ -1,0 +1,36 @@
+h1, h2, h3{
+    color:skyblue;
+}
+* {
+    background-color: rgb(223, 138, 11);
+}
+.nicecolor {
+    color: skyblue;
+}
+* {
+    text-align: center
+}
+.large {
+    font-size: 20px;
+}
+#introFont {
+    font-style: italic
+}
+.introFont2 {
+    font-style: italic
+}
+* {
+    box-sizing: border-box;
+    padding: 25px 50px 25px 50px;
+}
+div {
+    border: 50px;
+    background-color: grey;
+}
+
+/* this puts everything into the middle of the page*/
+#outer {
+	width:960px;
+	margin:0 auto;
+	background-color:#fff
+}
