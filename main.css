@@ -19,10 +19,13 @@ h1, h2, h3{
 .introFont2 {
     font-style: italic
 }
+
 * {
     box-sizing: border-box;
-    padding: 25px 50px 25px 50px;
+    padding: 25px 1px 25px 1px;
+    border: black;
 }
+
 div {
     border: 50px;
     background-color: grey;
@@ -33,4 +36,19 @@ div {
 	width:960px;
 	margin:0 auto;
 	background-color:#fff
+}
+
+/* Displays the navigation bar inline*/
+#topnav ul li {
+    display: inline
+}
+/* Puts a border around the navigation bar */
+#topnav ul {
+    border-top: 1px #000 solid;
+    border-bottom: 1px #000 solid;
+    margin: 20px 0; padding: 10px;
+}
+/*Stops nav bar from floating*/
+#topnav {
+    clear: both;
 }
