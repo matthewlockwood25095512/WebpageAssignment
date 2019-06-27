@@ -1,5 +1,5 @@
 h2, h3{
-    color:skyblue;
+    color:rgb(3, 240, 3);
     font-size: 25px;
 }
 .background {
@@ -8,7 +8,7 @@ h2, h3{
 .large {
     font-size: 20px;
     font: large;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: monospace;
 }
 .Heading {
     font-size: 35px;
@@ -18,6 +18,9 @@ h2, h3{
 }
 * {
     text-align: center;
+}
+.lists {
+    text-align: left;
 }
 
 
