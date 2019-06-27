@@ -1,5 +1,6 @@
-h1, h2, h3{
+h2, h3{
     color:skyblue;
+    font-size: 25px;
 }
 .background {
     background-image: url("backgroundstring.jpg");
@@ -8,6 +9,9 @@ h1, h2, h3{
     font-size: 20px;
     font: large;
     font-family: Arial, Helvetica, sans-serif;
+}
+.Heading {
+    font-size: 35px;
 }
 .introFont2 {
     font-style: italic
@@ -18,7 +22,7 @@ h1, h2, h3{
 
 
 .boarder {
-	width:960px;
+	width:1000px;
 	margin:0 auto;
 	background-color: gray;
 }
