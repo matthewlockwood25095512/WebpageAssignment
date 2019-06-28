@@ -22,6 +22,12 @@ h2, h3{
 .lists {
     text-align: left;
 }
+.listsright {
+    text-align: right;
+}
+.horizontal {
+    display: inline;
+}
 
 
 .boarder {
@@ -78,6 +84,10 @@ h2, h3{
 .rightside {
         width:200px;
         float: right;
+}
+.leftside {
+    width:200px;
+    float: right;
 }
 .content {
 	width:650px; float:left;
