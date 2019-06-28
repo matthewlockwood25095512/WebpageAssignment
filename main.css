@@ -86,8 +86,14 @@ h2, h3{
         float: right;
 }
 .leftside {
-    width:200px;
-    float: right;
+    position: relative;
+    margin: auto;
+    left: 23%;
+}
+.newright {
+    position: absolute;
+    margin: auto;
+    left: 17%;
 }
 .content {
 	width:650px; float:left;
